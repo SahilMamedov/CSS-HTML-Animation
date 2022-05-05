@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    width: 41rem;
+    height: 41rem;
+   position: relative;
+    
+    background: url("shekil/clock.png");
+    background-repeat: no-repeat;
+    
+}
+.secs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: .1rem;
+    height: 12rem;
+    border-radius: 20px;
+    transform: translateX(-50%);
+    background-color: tomato;
+    transform-origin: 25% 0;
+}
+
+.mins{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    width: .3rem;
+    height: 9rem;
+    transform: translateX(-50%);
+    background-color: black;
+    transform-origin: 25% 0;
+}
+.hours{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    width: .5rem;
+    height: 6rem;
+    transform: translateX(-50%);
+    background-color: black;
+    transform-origin: 25% 0;
+}
+.dot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    transform: translateX(-50%);
+    background-color: black;
+   
+}

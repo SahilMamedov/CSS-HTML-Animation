@@ -1,20 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box; 
 }
 body{
+   
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 
-}
+} 
 .yol{
     position: absolute;
     height: 1000px;
     width: 1900px;
-    background: url("arka.jpg");
+    background: url("shekil/arka.jpg");
     background-size: cover;
     
     animation-name: yol;
@@ -26,7 +27,7 @@ body{
 .mashin{
     width: 1650px;
     height: 950px;
-    background: url("sidestillet\ \(1\).png");
+    background: url("shekil/sidestillet\ \(1\).png");
     position: absolute;
     top: 100px;
      
@@ -77,3 +78,4 @@ body{
         background-position: 1900px 0;
     }
 }
+

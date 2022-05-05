@@ -1,0 +1,31 @@
+.kvadrat{
+   
+    background-color: rgb(79, 128, 219);
+    width: 210px;
+    height: 210px;
+    position: relative;
+    animation-name: kvadrat;
+    animation-timing-function: linear;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+ .container{
+    width: 1500px;
+    height: 300px;
+    border: solid black 4px;
+    border-left: none;
+    position: relative;
+border-right: none;
+
+
+
+
+
+
+
+
+
+
+
+
