@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.yol{
+    position: absolute;
+    height: 1000px;
+    width: 1900px;
+    background: url("arka.jpg");
+    background-size: cover;
+    
+    animation-name: yol;
+    animation-direction: reverse;
+     animation-duration: 4s; 
+     animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+}
+.mashin{
+    width: 1650px;
+    height: 950px;
+    background: url("sidestillet\ \(1\).png");
+    position: absolute;
+    top: 100px;
+     
+   
+}
+.teker{
+    position: absolute;
+   
+    width: 244px;
+    height: 244px;
+    top: 590px;
+    left: 418px;
+
+    animation-name: firlan;
+    animation-direction: normal;
+     animation-duration: 1s; 
+     animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+}
+.teker1{
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    top: 590px;
+    left: 1318px;
+ 
+
+    animation-name: firlan;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes firlan{
+    from{
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes yol {
+    from{
+
+    }
+    to{
+        background-position: 1900px 0;
+    }
+}
